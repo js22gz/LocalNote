@@ -1,4 +1,4 @@
-const CACHE_NAME = 'localnote-v2026';
+const CACHE_NAME = 'SafeTXT';
 const ASSETS = [
   './index.html',
   './manifest.json'
