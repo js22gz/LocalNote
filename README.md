@@ -1,20 +1,20 @@
-LocalNote Secure 🔐
+SAFE.TXT 🔐
 
-LocalNote Secure is a "Zero-Knowledge" Progressive Web App (PWA) designed for GDPR-compliant note-taking in educational environments. It enables teachers to record sensitive student observations with high-grade local encryption before the data ever touches the cloud.
+SAFE.TXT is a "Zero-Knowledge" Progressive Web App (PWA) designed for GDPR-compliant note-taking in educational environments. It enables teachers to record sensitive student observations with high-grade local encryption before the data ever touches the cloud.
 
 🛡️ The Mission
 
-Educational professionals often handle sensitive data that requires higher protection than standard cloud documents offer. LocalNote bridges the gap between digital convenience and strict data sovereignty.
+Educational professionals often handle sensitive data that requires higher protection than standard cloud documents offer. SAFE.TXT bridges the gap between digital convenience and strict data sovereignty by ensuring that plaintext data never leaves the teacher's device.
 
 🚀 Key Features
 
 Edge Encryption: Data is encrypted in the browser memory using AES-GCM 256 via the Web Crypto API.
 
-Zero-Knowledge Architecture: The developer has no servers and zero access to your keys or content.
+Zero-Knowledge Architecture: The application is entirely client-side. The developer has no servers, no databases, and zero access to your encryption keys or content.
 
-Storage Sovereignty: Files are stored directly in your municipality-managed Google Drive, leveraging existing Data Processing Agreements (DPA).
+Storage Sovereignty: Encrypted files are stored directly in your municipality-managed Google Drive, leveraging existing Data Processing Agreements (DPA).
 
-Collision Detection: Session-aware polling prevents data loss during collaborative use.
+Collision Detection: Session-aware polling prevents data loss during collaborative use by notifying users if a cloud file has been updated by another teacher.
 
 Privacy by Design: No tracking, no cookies, and no telemetry.
 
@@ -24,7 +24,7 @@ Architecture: Single-file HTML/JS SPA (Single Page Application).
 
 Security: PBKDF2 key derivation with 100,000 iterations and a fixed municipal salt.
 
-PWA Ready: Offline support via Service Workers and installable on Chrome OS, Windows, and macOS.
+PWA Ready: Full offline support via Service Workers; installable as a native app on Chrome OS, Windows, and macOS.
 
 ⚖️ License & Attribution
 
